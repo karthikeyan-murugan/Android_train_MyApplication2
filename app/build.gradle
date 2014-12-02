@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 18
+    compileSdkVersion 15
     buildToolsVersion "21.1.1"
 
     defaultConfig {
         applicationId "com.example.a527082.myapplication2"
         minSdkVersion 15
-        targetSdkVersion 18
+        targetSdkVersion 15
         versionCode 1
         versionName "1.0"
     }

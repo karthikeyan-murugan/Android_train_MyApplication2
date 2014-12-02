@@ -33,6 +33,9 @@ public class MainActivity extends Activity {
         if (id == R.id.action_settings) {
             return true;
         }
+        else if (id == R.id.action_another_settings) {
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }
